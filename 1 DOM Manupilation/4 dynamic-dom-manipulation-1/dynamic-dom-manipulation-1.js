@@ -5,8 +5,8 @@ let h1 = document.createElement("h1"); // Empty h1 create goke h1 mai store hoga
 h1.textContent = "Mai js se aaya hu";
 
 console.log(h1);
-document.body.append(h1); // append matlab last mai lagega
-// document.body.prepend(h1); // prepend matlab pahile lagega --> ek time pe ek element ko ekbar hi append ya prepend kar sakte ho
+document.body.append(h1); // append matlab last mai lagega selected element ke andar
+// document.body.prepend(h1); // prepend matlab pahile lagega selected element ke andar --> ek time pe ek created element ko ekbar hi append ya prepend kar sakte ho
 
 let chacha = document.createElement("div"); 
 chacha.textContent = "Mai div hu";
