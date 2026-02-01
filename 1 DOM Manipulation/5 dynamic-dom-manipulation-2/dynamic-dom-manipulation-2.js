@@ -12,6 +12,7 @@ h1.remove();
 let sabu = document.createElement("h1");
 let shubu = document.createElement("h1");
 
+// new way prepend/append example
 sabu.textContent = "mera naam sabu hai";
 shubu.textContent = "mera naam shubu hai";
 div.prepend(sabu,
